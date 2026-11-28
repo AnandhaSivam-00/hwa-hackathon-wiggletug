@@ -2,7 +2,7 @@
 
 import ControlBox from '@/app/_components/control-box'
 
-const ControlShow = () => {
+const ControlShowSection = () => {
     return (
         <section
             id="how-it-works"
@@ -27,4 +27,4 @@ const ControlShow = () => {
     )
 }
 
-export default ControlShow
+export default ControlShowSection

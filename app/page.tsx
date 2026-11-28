@@ -1,13 +1,14 @@
-import ControlShow from "./_sections/ControlShow";
-import HeroSection from "./_sections/HeroSection";
-import WhySection from "./_sections/WhySection";
+import ControlShowSection from "./_sections/ControlShow";
+import HeroSection from "./_sections/Hero";
+import TimelineSection from "./_sections/Timeline";
+import WhySection from "./_sections/Why";
 
 export default function HomePage() {
     return (
         <>
             <HeroSection />
             <WhySection />
-            <ControlShow />
+            <ControlShowSection />
         </>
     );
 }

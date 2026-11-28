@@ -8,6 +8,7 @@ import PluginProvider from "@/lib/providers/PluginProvider";
 
 import "./globals.css";
 import Header from "./_components/layout/header";
+import Footer from "./_components/layout/footer";
 
 
 const opensans = Open_Sans({
@@ -56,6 +57,7 @@ export default function RootLayout({
                         <main className="w-auto h-auto relative overflow-x-hidden overflow-y-auto">
                             {children}
                         </main>
+                        <Footer />
                     </PluginProvider>
                 </DependenciesCheckProvider>
             </body>
